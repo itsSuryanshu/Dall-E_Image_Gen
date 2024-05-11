@@ -1,6 +1,6 @@
 # Image Generating App using Dall-E 3
 
-![Link to Image](https://drive.google.com/file/d/1FmcZ7xW7BGtQF8-aY_frwXg_YjOlt9CN/view?usp=sharing)
+![imageGenScreenshot](https://github.com/itsSuryanshu/Dall-E_Image_Gen/assets/68126965/8f95a373-fca6-4399-b022-7da0b17e45c5)
 
 ### Description
 
