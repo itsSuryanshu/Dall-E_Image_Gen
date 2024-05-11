@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import ImageGen from "./components/ImageGen";
+import PromptBar from "./components/PromptBar";
+import { useState } from "react";
+import "./App.css";
 
-function App() {
+const App = () => {
+  const [imageLink, setImageLink] = useState("");
+
+  const handleSubmit = async (prompt) => {
+    const link = await ImageGen(prompt);
+    setImageLink(link);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <PromptBar onSubmit={handleSubmit} />
+      <h3 className="image-text">Generated Image:</h3>
+      <img className="generated-image" src={imageLink} alt="generated_image" />
     </div>
   );
-}
+};
 
 export default App;

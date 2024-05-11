@@ -1,0 +1,33 @@
+.form-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.prompt-box {
+  font-family: monospace;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px groove black;
+  border-radius: 20px;
+  width: 80%;
+  height: 10px;
+}
+
+.prompt-submit-button {
+  background-color: antiquewhite;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 12px;
+  border: 1px groove black;
+  border-radius: 30px;
+  width: 20%;
+  height: 34px;
+}
+
+.prompt-submit-button:hover {
+  background-color: rgb(211, 195, 175);
+  transition-duration: 0.5s;
+}
