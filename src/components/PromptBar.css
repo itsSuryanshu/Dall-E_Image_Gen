@@ -9,11 +9,11 @@
 .prompt-box {
   font-family: monospace;
   padding: 10px;
-  font-size: 12px;
+  font-size: 15px;
   border: 1px groove black;
   border-radius: 20px;
   width: 80%;
-  height: 10px;
+  height: 40px;
 }
 
 .prompt-submit-button {
@@ -22,9 +22,9 @@
   font-family: monospace;
   font-size: 12px;
   border: 1px groove black;
-  border-radius: 30px;
+  border-radius: 20px;
   width: 20%;
-  height: 34px;
+  height: 62px;
 }
 
 .prompt-submit-button:hover {
