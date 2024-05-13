@@ -5,6 +5,6 @@
 }
 
 .list {
-  columns: 7;
+  columns: 7 150px;
   column-gap: 10px;
 }
