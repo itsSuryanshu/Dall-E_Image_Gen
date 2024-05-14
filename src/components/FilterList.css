@@ -5,6 +5,10 @@
 }
 
 .list {
-  columns: 7 150px;
-  column-gap: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* columns: 8 150px;
+  column-gap: 10px; */
 }

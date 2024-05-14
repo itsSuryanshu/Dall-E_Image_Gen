@@ -30,9 +30,15 @@ const App = () => {
     <div className="app">
       <PromptBar onSubmit={handleSubmit} />
       <FilterList onSelect={handleSelect} />
-      <p className="image-text">Generated Image:</p>
-      <img className="generated-image" src={imageLink} alt="generated_image" />
-      <PreviousImages images={imageLinks} />
+      <div className="images-past-images">
+        <p className="image-text">Generated Image:</p>
+        <img
+          className="generated-image"
+          src={imageLink}
+          alt="generated_image"
+        />
+        <PreviousImages images={imageLinks} />
+      </div>
     </div>
   );
 };
