@@ -1,0 +1,11 @@
+.old-image-small {
+  width: 250px;
+  height: 250px;
+}
+.old-image-small img {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
