@@ -1,6 +1,8 @@
 .old-image-small {
   width: 250px;
   height: 250px;
+  flex-shrink: 0;
+  flex-grow: 0;
 }
 .old-image-small img {
   border: 1px solid black;

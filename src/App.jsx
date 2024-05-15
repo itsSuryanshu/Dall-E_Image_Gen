@@ -31,12 +31,14 @@ const App = () => {
       <PromptBar onSubmit={handleSubmit} />
       <FilterList onSelect={handleSelect} />
       <div className="images-past-images">
-        <p className="image-text">Generated Image:</p>
-        <img
-          className="generated-image"
-          src={imageLink}
-          alt="generated_image"
-        />
+        <div className="current-image">
+          <p className="image-text">Generated Image:</p>
+          <img
+            className="generated-image"
+            src={imageLink}
+            alt="generated_image"
+          />
+        </div>
         <PreviousImages images={imageLinks} />
       </div>
     </div>
